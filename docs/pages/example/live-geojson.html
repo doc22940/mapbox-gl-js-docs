@@ -21,8 +21,7 @@
                     // fly the map to the drone's current location
                     map.flyTo({
                         center: JSON.parse(this.response).geometry.coordinates,
-                        speed: 0.5,
-                        essential: true
+                        speed: 0.5
                     });
                 }
             };
